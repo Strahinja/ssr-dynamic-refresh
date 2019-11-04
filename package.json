@@ -1,0 +1,19 @@
+{
+   "name": "ssr-dynamic-refresh",
+   "version": "1.0.0",
+   "description": "SSR Dynamic Refresh Example",
+   "author": "Strahinja Radic",
+   "private": true,
+   "scripts": {
+      "dev": "MINIMAL=1 CSB=1 nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "post-update": "yarn upgrade --latest"
+   },
+   "dependencies": {
+      "@nuxt/http": "^0.3.0",
+      "nuxt": "^2.5.1",
+      "reqlim": "^0.0.0"
+   }
+}
